@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -25,13 +27,13 @@ body {
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
 }
 
-.container .left_side {
+.container .leftSide {
     position: relative;
     background: #003147;
     padding: 40px;
 }
 
-.profile_text {
+.profileText {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -40,7 +42,7 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.profile_text .img_cv {
+.profileText .imgCv {
     position: relative;
     width: 200px;
     height: 200px;
@@ -48,7 +50,7 @@ body {
     overflow: hidden;
 }
 
-.profile_text .img_cv img {
+.profileText .imgCv img {
     position: absolute;
     top: 0;
     left: 0;
@@ -57,7 +59,7 @@ body {
     object-fit: cover;
 }
 
-.profile_text .h2 {
+.profileText h2 {
     color: #fff;
     font-size: 1.5em;
     margin-top: 20px;
@@ -67,12 +69,47 @@ body {
     line-height: 1.4em;
 }
 
-.profile_text .h2 span {
+.profileText h2 span {
     font-size: 0.8em;
     font-weight: 300;
 }
 
-.container .right_side {
+.contactInfo {
+    padding-top: 40px;
+}
+
+.contactInfo .title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contactInfo ul {
+    position: relative;
+}
+
+.contactInfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9b4;
+}
+
+.contactInfo ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.container .rightSide {
     position: relative;
     background: #fff;
     padding: 40px;
